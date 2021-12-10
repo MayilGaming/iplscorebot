@@ -49,7 +49,7 @@ async def score(_, message):
         text = text.replace(")", ") ")
         await m.edit(text, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(
                                 [[InlineKeyboardButton(
-                                     "♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/tvseriezzz")]]))
+                                     "♻️ ⒼⓇⓄⓊⓅ ♻️", url="https://t.me/mgbotslists")]]))
         return
     except Exception as e:
         print(str(e))
